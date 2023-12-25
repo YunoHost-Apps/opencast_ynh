@@ -1,0 +1,70 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "opencast"
+name = "Opencast"
+description.en = "Solution for automated video capture and distribution at scale"
+description.fr = "Solution pour la capture et la distribution vidéo automatisées à grande échelle"
+
+version = "15.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "ECL-2.0"
+website = "https://opencast.org/"
+demo = "https://stable.opencast.org/admin-ui/index.html"
+admindoc = "https://docs.opencast.org/r/15.x/admin/#"
+code = "https://github.com/opencast/opencast"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = ["amd64"]
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+    [install.admin]
+    type = "user"
+
+    [install.password]
+    type = "password"
+
+[resources]
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
+
+    [resources.apt]
+    packages = "postgresql"
+
+    extras.yarn.repo = "deb https://pkg.opencast.org/debian 15.x stable"
+    extras.yarn.key = "https://pkg.opencast.org/gpgkeys/opencast-deb.key"
+    extras.yarn.packages = "opencast-15-allinone opensearch"
+
+    [resources.database]
+    type = "postgresql"
+   

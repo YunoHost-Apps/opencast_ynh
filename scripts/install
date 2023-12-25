@@ -1,0 +1,50 @@
+#!/bin/bash
+
+#=================================================
+# GENERIC START
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
+source _common.sh
+source /usr/share/yunohost/helpers
+
+email=$(ynh_user_get_info --username=$admin --key=mail)
+
+#=================================================
+# SYSTEM CONFIGURATION
+#=================================================
+ynh_script_progression --message="Adding system configurations related to $app..." --weight=1
+
+ynh_add_nginx_config
+
+ynh_add_systemd_config
+
+yunohost service add $app --description="Automated video capture and distribution" --log="/var/log/$app/$app.log"
+
+#=================================================
+# APP INITIAL CONFIGURATION
+#=================================================
+# ADD A CONFIGURATION
+#=================================================
+ynh_script_progression --message="Adding a configuration file..." --weight=1
+
+#ynh_add_config --template="custom.properties" --destination="/etc/opencast/custom.properties"
+
+#chmod 400 "/etc/opencast/custom.properties"
+#chown $app:$app "/etc/opencast/custom.properties"
+
+#=================================================
+# GENERIC FINALIZATION
+#=================================================
+# START SYSTEMD SERVICE
+#=================================================
+ynh_script_progression --message="Starting a systemd service..." --weight=1
+
+# Start a systemd service
+ynh_systemd_action --service_name=$app --action="start" --log_path="systemd"
+
+#=================================================
+# END OF SCRIPT
+#=================================================
+ynh_script_progression --message="Installation of $app completed" --last
