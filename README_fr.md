@@ -25,7 +25,6 @@ Opencast est une plateforme gratuite et open source pour prendre en charge la ge
 ## Captures d’écran
 
 ![Capture d’écran de Opencast](./doc/screenshots/screeshot.png)
-![Capture d’écran de Opencast](./doc/screenshots/example.jpg)
 
 ## Documentations et ressources
 
