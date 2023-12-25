@@ -16,8 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
-
+Opencast est une plateforme gratuite et open source pour prendre en charge la gestion du contenu audio et vidéo éducatif. Les établissements peuvent utiliser Opencast pour produire des enregistrements de cours, gérer des vidéos existantes, desservir des canaux de distribution désignés et fournir des interfaces utilisateur pour impliquer les étudiants avec des vidéos éducatives.
 
 **Version incluse :** 15.0~ynh1
 
