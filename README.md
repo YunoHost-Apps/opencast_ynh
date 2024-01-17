@@ -27,6 +27,7 @@ Opencast is a free, open-source platform to support the management of educationa
 
 ![Screenshot of Opencast](./doc/screenshots/screeshot.png)
 
+
 ## Documentation and resources
 
 * Official app website: <https://opencast.org/>
