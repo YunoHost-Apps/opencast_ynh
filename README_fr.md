@@ -9,6 +9,21 @@ It shall NOT be edited by hand.
 
 [![Installer Opencast avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=opencast)
 
+*[Read this readme in english.](./README.md)*
+
+> *Ce package vous permet d’installer Opencast rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
+
+## Vue d’ensemble
+
+Opencast est une plateforme gratuite et open source pour prendre en charge la gestion du contenu audio et vidéo éducatif. Les établissements peuvent utiliser Opencast pour produire des enregistrements de cours, gérer des vidéos existantes, desservir des canaux de distribution désignés et fournir des interfaces utilisateur pour impliquer les étudiants avec des vidéos éducatives.
+
+**Version incluse :** 15.0~ynh1
+
+**Démo :** https://stable.opencast.org/admin-ui/index.html
+
+## Captures d’écran
+
 ![Capture d’écran de Opencast](./doc/screenshots/screeshot.png)
 
 ## Documentations et ressources
