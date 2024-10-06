@@ -60,7 +60,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "openjdk-11-jdk, postgresql"
+    packages = "openjdk-11-jdk, postgresql, ffmpeg-dist, tesseract-ocr, sox, hunspell, netcat"
 
     extras.yarn.repo = "deb https://pkg.opencast.org/debian 15.x stable"
     extras.yarn.key = "https://pkg.opencast.org/gpgkeys/opencast-deb.key"
