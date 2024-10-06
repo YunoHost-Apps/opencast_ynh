@@ -75,9 +75,6 @@ ram.runtime = "50M"
         echo "openjdk-17-jre";
     fi
     """
-    #extras.yarn.repo = "deb https://pkg.opencast.org/debian 15.x stable"
-    #extras.yarn.key = "https://pkg.opencast.org/gpgkeys/opencast-deb.key"
-    #extras.yarn.packages = "opencast-15-allinone opensearch"
 
     [resources.database]
     type = "postgresql"
