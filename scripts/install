@@ -6,6 +6,13 @@ source /usr/share/yunohost/helpers
 email=$(ynh_user_get_info --username=$admin --key=mail)
 
 #=================================================
+# DOWNLOAD, CHECK AND UNPACK SOURCE
+#=================================================
+ynh_script_progression "Setting up source files..."
+
+ynh_setup_source --dest_dir="$install_dir"
+
+#=================================================
 # SYSTEM CONFIGURATION
 #=================================================
 ynh_script_progression "Adding system configurations related to $app..."

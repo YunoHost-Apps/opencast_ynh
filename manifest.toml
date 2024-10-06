@@ -7,7 +7,7 @@ name = "Opencast"
 description.en = "Solution for automated video capture and distribution at scale"
 description.fr = "Solution pour la capture et la distribution vidéo automatisées à grande échelle"
 
-version = "15.0~ynh1"
+version = "16.5~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -48,6 +48,13 @@ ram.runtime = "50M"
 
 [resources]
 
+    [resources.sources]
+
+    [resources.sources.main]
+    url = "https://github.com/opencast/opencast/releases/download/16.5/opencast-dist-allinone-16.5.tar.gz"
+    sha256 = "9447c3039c10d6227f3c18838ba32c01333c395de823f8cb4dd3449aa48ec517"
+
+
     [resources.system_user]
 
     [resources.install_dir]
@@ -60,11 +67,11 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "openjdk-11-jdk, postgresql"
+    packages = "openjdk-17-jdk, postgresql"
 
-    extras.yarn.repo = "deb https://pkg.opencast.org/debian 15.x stable"
-    extras.yarn.key = "https://pkg.opencast.org/gpgkeys/opencast-deb.key"
-    extras.yarn.packages = "opencast-15-allinone opensearch"
+    #extras.yarn.repo = "deb https://pkg.opencast.org/debian 15.x stable"
+    #extras.yarn.key = "https://pkg.opencast.org/gpgkeys/opencast-deb.key"
+    #extras.yarn.packages = "opencast-15-allinone opensearch"
 
     [resources.database]
     type = "postgresql"
