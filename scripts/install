@@ -23,16 +23,12 @@ ynh_config_add_systemd
 
 yunohost service add $app --description="Automated video capture and distribution" --log="/var/log/$app/$app.log"
 
-chmod 750 "$install_dir"
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
-
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
 ynh_script_progression "Adding $app's configuration..."
 
-ynh_config_add --template="custom.properties" --destination="/etc/opencast/custom.properties"
+ynh_config_add --template="custom.properties" --destination="$install_dir/custom.properties"
 
 #=================================================
 # START SYSTEMD SERVICE
