@@ -19,7 +19,7 @@ EZ editatu eskuz.
 Opencast is a free, open-source platform to support the management of educational audio and video content. Institutions can use Opencast to produce lecture recordings, manage existing video, serve designated distribution channels, and provide user interfaces to engage students with educational videos.
 
 
-**Paketatutako bertsioa:** 15.0~ynh1
+**Paketatutako bertsioa:** 16.5~ynh1
 
 **Demoa:** <https://stable.opencast.org/admin-ui/index.html>
 

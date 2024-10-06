@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Opencast est une plateforme gratuite et open source pour prendre en charge la gestion du contenu audio et vidéo éducatif. Les établissements peuvent utiliser Opencast pour produire des enregistrements de cours, gérer des vidéos existantes, desservir des canaux de distribution désignés et fournir des interfaces utilisateur pour impliquer les étudiants avec des vidéos éducatives.
 
-**Version incluse :** 15.0~ynh1
+**Version incluse :** 16.5~ynh1
 
 **Démo :** <https://stable.opencast.org/admin-ui/index.html>
 
