@@ -29,7 +29,7 @@ Opencast est une plateforme gratuite et open source pour prendre en charge la ge
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://opencast.org/>
-- Documentation officielle de l’admin : <https://docs.opencast.org/r/15.x/admin/#>
+- Documentation officielle de l’admin : <https://docs.opencast.org/develop/admin/#>
 - Dépôt de code officiel de l’app : <https://github.com/opencast/opencast>
 - YunoHost Store : <https://apps.yunohost.org/app/opencast>
 - Signaler un bug : <https://github.com/YunoHost-Apps/opencast_ynh/issues>

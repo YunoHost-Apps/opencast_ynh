@@ -30,7 +30,7 @@ Opencast is a free, open-source platform to support the management of educationa
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://opencast.org/>
-- Dokumentasi admin resmi: <https://docs.opencast.org/r/15.x/admin/#>
+- Dokumentasi admin resmi: <https://docs.opencast.org/develop/admin/#>
 - Depot kode aplikasi hulu: <https://github.com/opencast/opencast>
 - Gudang YunoHost: <https://apps.yunohost.org/app/opencast>
 - Laporkan bug: <https://github.com/YunoHost-Apps/opencast_ynh/issues>

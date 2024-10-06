@@ -30,7 +30,7 @@ Opencast is a free, open-source platform to support the management of educationa
 ## Documentation and resources
 
 - Official app website: <https://opencast.org/>
-- Official admin documentation: <https://docs.opencast.org/r/15.x/admin/#>
+- Official admin documentation: <https://docs.opencast.org/develop/admin/#>
 - Upstream app code repository: <https://github.com/opencast/opencast>
 - YunoHost Store: <https://apps.yunohost.org/app/opencast>
 - Report a bug: <https://github.com/YunoHost-Apps/opencast_ynh/issues>
