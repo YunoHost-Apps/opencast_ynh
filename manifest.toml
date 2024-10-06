@@ -67,8 +67,14 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "openjdk-17-jdk, postgresql"
-
+    packages = "postgresql"
+    packages_from_raw_bash = """
+    if [[ $YNH_DEBIAN_VERSION == "bullseye" ]]; then
+        echo "openjdk-11-jre";
+    elif [[ $YNH_DEBIAN_VERSION == "bookworm" ]]; then
+        echo "openjdk-17-jre";
+    fi
+    """
     #extras.yarn.repo = "deb https://pkg.opencast.org/debian 15.x stable"
     #extras.yarn.key = "https://pkg.opencast.org/gpgkeys/opencast-deb.key"
     #extras.yarn.packages = "opencast-15-allinone opensearch"
