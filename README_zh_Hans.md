@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Opencast
 
-[![集成程度](https://dash.yunohost.org/integration/opencast.svg)](https://ci-apps.yunohost.org/ci/apps/opencast/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/opencast.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/opencast.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/opencast)](https://ci-apps.yunohost.org/ci/apps/opencast/)
+![工作状态](https://apps.yunohost.org/badge/state/opencast)
+![维护状态](https://apps.yunohost.org/badge/maintained/opencast)
 
 [![使用 YunoHost 安装 Opencast](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=opencast)
 

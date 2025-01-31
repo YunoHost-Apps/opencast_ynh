@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Opencast YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/opencast.svg)](https://ci-apps.yunohost.org/ci/apps/opencast/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/opencast.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/opencast.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/opencast)](https://ci-apps.yunohost.org/ci/apps/opencast/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/opencast)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/opencast)
 
 [![Instalatu Opencast YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=opencast)
 

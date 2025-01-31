@@ -5,7 +5,9 @@
 
 # Opencast для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/opencast.svg)](https://ci-apps.yunohost.org/ci/apps/opencast/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/opencast.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/opencast.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/opencast)](https://ci-apps.yunohost.org/ci/apps/opencast/)
+![Состояние работы](https://apps.yunohost.org/badge/state/opencast)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/opencast)
 
 [![Установите Opencast с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=opencast)
 

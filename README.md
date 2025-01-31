@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Opencast for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/opencast.svg)](https://ci-apps.yunohost.org/ci/apps/opencast/) ![Working status](https://ci-apps.yunohost.org/ci/badges/opencast.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/opencast.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/opencast)](https://ci-apps.yunohost.org/ci/apps/opencast/)
+![Working status](https://apps.yunohost.org/badge/state/opencast)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/opencast)
 
 [![Install Opencast with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=opencast)
 

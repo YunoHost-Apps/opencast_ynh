@@ -19,13 +19,12 @@ admindoc = "https://docs.opencast.org/develop/admin/#"
 code = "https://github.com/opencast/opencast"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = ["amd64"]
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -60,7 +59,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "openjdk-11-jdk, postgresql, ffmpeg-dist, tesseract-ocr, sox, hunspell, netcat"
+    packages = "openjdk-11-jdk, postgresql, ffmpeg, tesseract-ocr, sox, hunspell, netcat"
 
     extras.yarn.repo = "deb https://pkg.opencast.org/debian 15.x stable"
     extras.yarn.key = "https://pkg.opencast.org/gpgkeys/opencast-deb.key"
